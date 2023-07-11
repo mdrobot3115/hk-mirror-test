@@ -1,4 +1,4 @@
-name: Deploy to Heroku
+name: Manually Deploy to Heroku
 
 on: workflow_dispatch
 
@@ -12,6 +12,11 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
           heroku_email: ${{secrets.HEROKU_EMAIL}}
+          OWNER_ID: ${{secrets.OWNER_ID}}
+          TELEGRAM_API: ${{secrets.TELEGRAM_API}}
+          TELEGRAM_HASH: ${{secrets.TELEGRAM_HASH}}
+          DATABASE_URL: ${{secrets.DATABASE_URL}}
+          BOT_TOKEN: ${{secrets.BOT_TOKEN}}
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
@@ -22,4 +27,3 @@ jobs:
           HD_TELEGRAM_HASH: ${{secrets.TELEGRAM_HASH}}
           HD_DATABASE_URL: ${{secrets.DATABASE_URL}}
           HD_BOT_TOKEN: ${{secrets.BOT_TOKEN}}
-          HD_TORRENT_TIMEOUT: ${{secrets.TORRENT_TIMEOUT}}
