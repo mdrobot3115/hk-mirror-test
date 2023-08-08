@@ -6,7 +6,6 @@ apscheduler
 aria2p
 asyncio
 beautifulsoup4
-bencoding
 cinemagoer
 cloudscraper
 dnspython
@@ -38,7 +37,6 @@ speedtest-cli
 telegraph
 tenacity
 tgcrypto
-typing_extensions
 uvloop
 xattr
 yt-dlp==2023.3.4
