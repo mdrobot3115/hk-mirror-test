@@ -1,5 +1,4 @@
 config.env
-*auth_token.txt
 *.pyc
 data*
 .vscode
@@ -10,15 +9,13 @@ data*
 log.txt
 accounts/*
 Thumbnails/*
-drive_folder
-cookies.txt
-terabox.txt
-accounts.zip
-rcl.conf
-fish/*
+MediaInfo/*
+Images/*
+rclone/*
 list_drives.txt
+cookies.txt
 downloads
 bot.session
 user.session
-buttons.txt
-shorteners.txt
+terabox.txt
+rclone.conf
