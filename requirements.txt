@@ -5,7 +5,6 @@ anytree==2.8.0
 apscheduler
 aria2p
 asyncio
-beautifulsoup4
 bencoding
 cloudscraper
 dnspython
@@ -26,7 +25,7 @@ pillow
 psutil
 pybase64
 pymongo
-pyrogram==2.0.77
+pyrofork==2.2.10
 python-dotenv
 python-magic
 qbittorrent-api
